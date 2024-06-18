@@ -1,0 +1,34 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Lox",
+			"request": "launch",
+			"mainClass": "com.Lox",
+			"projectName": "Lox_36ac5b0b"
+		},
+		{
+			"type": "java",
+			"name": "GenerateAst",
+			"request": "launch",
+			"mainClass": "com.tool.GenerateAst",
+			"projectName": "Lox_36ac5b0b"
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "../totvs/bin/smartclient/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true,
+			"extendFeatures": {
+				"charDetails": false
+			}
+		}
+	],
+	"lastProgramExecuted": "<cancel>",
+	"lastProgramArguments": []
+}
